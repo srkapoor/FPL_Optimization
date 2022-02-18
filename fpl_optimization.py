@@ -266,7 +266,7 @@ def multi_period_solver(team_id, gw, horizon, objective='regular', decay_base=0.
 sol = multi_period_solver(
     team_id=151180,
     gw=26,
-    horizon = 7,
+    horizon = 5,
     objective = 'decay',
     team_override = False,
     team = []
